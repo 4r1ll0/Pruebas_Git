@@ -2,21 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bucleuno : MonoBehaviour
+public class bucle6 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        //if(condicion)
-        //for(variable;condicion;operacion)
-        for(int i = 5; i > 0; i--)
+        int suma = 0;
+        for (int i=1; i <= 100; i++);
         {
-            Debug.Log("Hola! :)" + i);
+            suma = i + suma;
+            Debug.Log(suma);
 
-            //i--
         }
-
-        // ejecutamos aqui, fuera del bucle
     }
 
     // Update is called once per frame
